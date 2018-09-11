@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_panel1"
+        android:icon="@drawable/ic_border_color_black_24dp"
+        android:title="@string/title_panel_1" />
+
+    <item
+        android:id="@+id/navigation_panel2"
+        android:icon="@drawable/ic_playlist_add_check_black_24dp"
+        android:title="@string/title_panel_2" />
+
+    <item
+        android:id="@+id/navigation_panel3"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/title_panel_3" />
+
+</menu>

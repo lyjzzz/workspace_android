@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+            <EditText
+                android:id="@+id/editText_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <Button
+                android:id="@+id/button_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현재시간"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="76dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <Button
+                android:id="@+id/button_milk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="분유추가(0ml)"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="76dp" />
+
+            <Button
+                android:id="@+id/button_milkreset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="분유리셋"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="76dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <Button
+                android:id="@+id/button_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="소변"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="76dp" />
+
+            <Button
+                android:id="@+id/button_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="응가"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="76dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
